@@ -1,0 +1,78 @@
+header{
+    background-color:black;
+    color:blanchedalmond;
+    text-align: center;
+    padding: 20px;  /*AQUI É O ESPAÇAMENTO*/
+}
+nav{ /*NAV É NAVEGAÇÃO, USADO NOS TÍTULOS*/
+    background-color:black;
+    padding: 10px;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;  /*SERVE PARA TIRAR ALGO*/
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a{
+    color:aliceblue;
+    text-decoration: none;
+}
+
+li :hover{
+    color:darkorange;
+}
+
+footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 20px;
+}
+
+main{
+    padding: 20px;
+}
+
+section{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#container{
+    border:3px solid blueviolet;
+    width: 100%;
+    height: 100%;
+}
+
+#box1{
+    background-color: blue;
+}
+#box2{
+    background-color: yellow;
+}
+#box3{
+    background-color: red;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.box-texto{
+    text-align: center;
+}
+
+div{
+    text-align: center;
+}
